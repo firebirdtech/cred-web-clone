@@ -1,5 +1,6 @@
 .hero-section-wrapper {
     position: relative;
+    overflow: hidden;
 }
 
 .hero-section {
@@ -19,6 +20,25 @@
     font-weight: 700;
     margin: 35px 58px;
     line-height: 38px;
+}
+
+.hero-claim-lable {
+    font-size: 25px;
+    background-color: #272727;
+    width: 100vw;
+    height: 72px;
+    line-height: 30px;
+    position: absolute;
+    font-weight: 600;
+}
+
+#claim-img {
+    height: 10px;
+    width: 10px;
+}
+
+.claim-anchor {
+    color: #7ea2ec;
 }
 
 @media screen and (max-width: 1279px) {
@@ -55,5 +75,23 @@
         max-width: 80%;
         min-height: 70vh;
     }
-    
+
+    .hero-claim-lable {
+        flex-direction: column;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero-claim-lable {
+        flex-direction: column;
+        font-size: 13px;
+        height: 55px;
+        line-height: 20px;
+    }
+
+    .claim-anchor {
+        color: #7ea2ec;
+        font-size: 11.8px;
+    }
 }

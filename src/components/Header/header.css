@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.cred-logo {
+    height: 66px;
+    width: auto;
+    z-index: 20;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: var(--white);
+    opacity: 0.8;
+    font-size: 18px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.mobile-menu-button-wapper {
+    z-index: 2;
+}
+
+@media all and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 1279px) {
+    .header {
+        padding: 40px 50px;
+    }
+
+    .cred-logo {
+        height: 53px;
+        width: auto;
+    }
+}

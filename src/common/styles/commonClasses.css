@@ -26,4 +26,15 @@
     .max-width {
         max-width: 90%;
     }
+
+    .none-mobile {
+        display: none !important;
+        overflow-x: hidden;
+    }
+}
+
+@media all and (min-width: 767px) {
+    .only-mobile {
+        display: none !important;
+    }
 }

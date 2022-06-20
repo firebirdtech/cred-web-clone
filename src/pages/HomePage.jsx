@@ -4,6 +4,7 @@ import HeroSection from '../components/HeroSection'
 import Sidebar from '../components/common/Sidebar/Sidebar'
 import ProductShowcase from '../components/ProductShowcase'
 import FeelSpecial from '../components/FeelSpecial'
+import BrandsLove from '../components/BrandsLove'
 const HomePage = () => {
   const [showSideNavbar, setShowSideNavbar] = useState(false)
   console.log(showSideNavbar)
@@ -14,6 +15,7 @@ const HomePage = () => {
       <HeroSection />
       <ProductShowcase />
       <FeelSpecial />
+      <BrandsLove/>
     </>
   )
 }

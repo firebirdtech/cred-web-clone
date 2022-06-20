@@ -45,3 +45,40 @@
     max-width: 630px;
 }
 
+@media all and (max-width: 768px) {
+    .feel-special-heading {
+        font-size: 50px;
+        line-height: 40px;
+    }
+
+    .feel-special-subheading {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .feel-special-paragraph {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .feel-special-section {
+        background-position-x: 85%;
+    }
+
+    .feel-special-container {
+        display: flex;
+        align-items: flex-start;
+        transform: translateY(0%);
+        height: 100%;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+
+    .feel-special-bottom {
+        margin-bottom: 20px;
+    }
+
+    .feel-special-top {
+        margin-top: 20px;
+    }
+}

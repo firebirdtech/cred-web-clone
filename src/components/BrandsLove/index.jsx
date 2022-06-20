@@ -7,7 +7,7 @@ const BrandsLove = () => {
     <div className='brands-section'>
       <div className='brands-container max-width'>
         <div className='brands-love-heading'>rewards from brands you love.</div>
-        <div className='brands-love-banner' style={{
+        <div className='brands-love-banner none-mobile' style={{
           backgroundImage: `url(${BrandLoveImg})`
         }} alt='brands-love' />
       </div>

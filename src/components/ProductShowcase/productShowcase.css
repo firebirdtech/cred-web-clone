@@ -1,0 +1,45 @@
+.product-showcase {
+  width: 100vw;
+  height: 800px;
+  overflow: hidden;
+  background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/video-bg.png);
+  background-size: cover;
+  position: relative;
+  background-position: right top;
+}
+
+.showcase-items {
+    min-height: 70%;
+}
+
+.showcase-item {
+    position: absolute;
+    left: 50%;
+}
+
+.showcase-item.left-2 {
+    transform: translate(-160%, 25%);
+    z-index: 0;
+}
+
+.showcase-item.left-1 {
+    transform: translate(-105%, 15%);
+    z-index: 1;
+}
+
+.showcase-item.center {
+    transform: translate(-50%, 5%);
+    z-index: 2;
+}
+
+.showcase-item.right-1 {
+    left: 50%;
+    transform: translate(0%, 15%);
+    z-index: 1;
+}
+
+.showcase-item.right-2 {
+    left: 50%;
+    transform: translate(50%, 25%);
+    z-index: 0;
+}

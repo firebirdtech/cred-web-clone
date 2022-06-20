@@ -1,6 +1,5 @@
 import React from 'react'
 import './header.css'
-import '../../common/styles/animations.css'
 
 const Header = ({ toggleNav, showSideNavbar}) => {
     return (

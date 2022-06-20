@@ -1,16 +1,17 @@
 import React, { useState } from 'react'
-import Header from '../components/Header'
+import Header from '../components/common/Header/index'
 import HeroSection from '../components/HeroSection'
-import Sidebar from '../components/Sidebar/Sidebar'
-
+import Sidebar from '../components/common/Sidebar/Sidebar'
+import ProductShowcase from '../components/ProductShowcase'
 const HomePage = () => {
   const [showSideNavbar, setShowSideNavbar] = useState(false)
   console.log(showSideNavbar)
   return (
     <>
-    <Sidebar isActive={showSideNavbar}/>
+      <Sidebar isActive={showSideNavbar} />
       <Header toggleNav={() => setShowSideNavbar((prev) => !prev)} showSideNavbar={showSideNavbar} />
       <HeroSection />
+      <ProductShowcase />
     </>
   )
 }

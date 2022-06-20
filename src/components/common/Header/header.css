@@ -28,7 +28,7 @@
 }
 
 .mobile-menu-button-wapper {
-    z-index: 2;
+    z-index: 11;
 }
 
 @media all and (max-width: 768px) {

@@ -1,5 +1,5 @@
 .feel-special-section {
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg");
     background-size: cover;
@@ -80,5 +80,11 @@
 
     .feel-special-top {
         margin-top: 20px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .feel-special-container {
+        transform: translateY(0%);
     }
 }

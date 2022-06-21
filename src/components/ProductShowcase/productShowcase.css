@@ -15,6 +15,7 @@
 .showcase-item {
     position: absolute;
     left: 50%;
+    bottom: 0;
 }
 
 .showcase-item.left-2 {
@@ -45,5 +46,30 @@
 }
 
 @media all and (max-width: 768px) {
-    
+    .showcase-items{
+        height: 620px;
+    }
+    .showcase-item {
+        width: 300px;
+    }
+}
+
+@media all and (max-width: 482px) {
+    .showcase-items{
+        height: 450px;
+    }
+    .showcase-item {
+        width: 170px;
+    }
+
+    .product-showcase {
+        height: 450px;
+        background-image: none;
+    }
+}
+
+.product-showcase-container {
+    bottom: 0;
+    position: absolute;
+    left: 50%;
 }

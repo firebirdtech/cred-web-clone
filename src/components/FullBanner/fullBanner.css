@@ -1,13 +1,19 @@
 .feel-special-section {
     height: 120vh;
     width: 100%;
-    background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg");
     background-size: cover;
 }
 
 .feel-special-container {
     justify-content: center;
+}
+
+.translate-y-50 {
     transform: translateY(50%);
+}
+
+.translate-y-20 {
+    transform: translateY(20%);
 }
 
 .feel-special-heading {

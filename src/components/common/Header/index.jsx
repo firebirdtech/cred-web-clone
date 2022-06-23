@@ -1,12 +1,13 @@
 import React from 'react'
 import './header.css'
+import CredLogo from '../../../common/images/cred-logo.png'
 
 const Header = ({ toggleNav, showSideNavbar}) => {
     return (
         <div className='header max-width'>
             
             <div className='right-logo'>
-                <img className='cred-logo' src='https://web-images.credcdn.in/_next/assets/images/home-page/cred-logo.png' alt='google logo' />
+                <img className='cred-logo' src={CredLogo} alt='cred logo' />
             </div>
             <div className='left-nav none-mobile'>
                 <div className='nav-link'>

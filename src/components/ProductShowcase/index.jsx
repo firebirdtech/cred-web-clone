@@ -1,5 +1,10 @@
 import React, { useRef, useState, useEffect } from 'react'
 import './productShowcase.css'
+import CenterShowcase from '../../common/images/center.png';
+import Lef1Showcase from '../../common/images/left-1.png';
+import Left2Showcase from '../../common/images/left-2.png';
+import Right1Showcase from '../../common/images/right-1.png';
+import Right2Showcase from '../../common/images/right-2.png';
 
 const ProductShowcase = () => {
     const [showAnimation, setShowAnimation] = useState(false)
@@ -40,12 +45,12 @@ const ProductShowcase = () => {
             ref={ref}>
             <div className={`product-showcase-container ${showAnimation && 'scale-up-bottom'}`}>
                 {showAnimation && <div className='showcase-items'>
-                    <img src='https://web-images.credcdn.in/_next/assets/images/home-page/phone/left-2.png' alt='showcase left 2' className='showcase-item left-2'
+                    <img src={Left2Showcase} alt='showcase left 2' className='showcase-item left-2'
                     />
-                    <img src='https://web-images.credcdn.in/_next/assets/images/home-page/phone/left-1.png' alt='showcase left 1' className='showcase-item left-1' />
-                    <img src='https://web-images.credcdn.in/_next/assets/images/home-page/phone/center.png' alt='showcase center' className='showcase-item center' />
-                    <img src='https://web-images.credcdn.in/_next/assets/images/home-page/phone/right-1.png' alt='showcase right 1' className='showcase-item right-1' />
-                    <img src='https://web-images.credcdn.in/_next/assets/images/home-page/phone/right-2.png' alt='showcase right 2' className='showcase-item right-2' />
+                    <img src={Lef1Showcase} alt='showcase left 1' className='showcase-item left-1' />
+                    <img src={CenterShowcase} alt='showcase center' className='showcase-item center' />
+                    <img src={Right1Showcase} alt='showcase right 1' className='showcase-item right-1' />
+                    <img src={Right2Showcase} alt='showcase right 2' className='showcase-item right-2' />
                 </div>}
             </div>
         </div>

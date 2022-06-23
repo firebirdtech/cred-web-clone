@@ -5,6 +5,10 @@ import Sidebar from '../components/common/Sidebar/Sidebar'
 import ProductShowcase from '../components/ProductShowcase'
 import FullBaner from '../components/FullBanner'
 import BrandsLove from '../components/BrandsLove'
+import WindowPeek from '../components/WindowPeek'
+import MobileScroll from '../components/MobileScroll'
+import CredStory from '../components/CredStory'
+
 const HomePage = () => {
   const [showSideNavbar, setShowSideNavbar] = useState(false)
   console.log(showSideNavbar)
@@ -30,6 +34,10 @@ const HomePage = () => {
         banner={require('../common/images/money-matters-bg.jpg')}
         translate20={true}
       />
+      <MobileScroll/>
+      <div className='non-mobile'>
+        <WindowPeek/>
+      </div>
       <FullBaner
         title={"security first. and second."}
         subTitle={"what’s yours remains only yours."}
@@ -37,6 +45,7 @@ const HomePage = () => {
         buttonText={"Become a member"}
         banner={require('../common/images/security-bg.jpg')}
       />
+      <CredStory />
     </>
   )
 }

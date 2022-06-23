@@ -1,0 +1,8 @@
+.window-peek {
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/src/common/images/image-mock.jpg");
+}

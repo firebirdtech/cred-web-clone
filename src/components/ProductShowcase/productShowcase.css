@@ -2,7 +2,7 @@
   width: 100%;
   height: 800px;
   overflow: hidden;
-  background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/video-bg.png);
+  background-image: url("/src/common/images/video-bg.png");
   background-size: cover;
   position: relative;
   background-position: right top;

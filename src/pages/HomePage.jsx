@@ -8,6 +8,8 @@ import BrandsLove from '../components/BrandsLove'
 import WindowPeek from '../components/WindowPeek'
 import MobileScroll from '../components/MobileScroll'
 import CredStory from '../components/CredStory'
+import AppRating from '../components/AppRating'
+import Footer from '../components/Footer'
 
 const HomePage = () => {
   const [showSideNavbar, setShowSideNavbar] = useState(false)
@@ -46,6 +48,8 @@ const HomePage = () => {
         banner={require('../common/images/security-bg.jpg')}
       />
       <CredStory />
+      <AppRating/>
+      <Footer/>
     </>
   )
 }
